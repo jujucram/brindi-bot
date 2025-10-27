@@ -1,0 +1,7 @@
+node_modules/
+brindi_auth/
+.env
+.DS_Store
+pm-debug.log
+logs/
+*.log

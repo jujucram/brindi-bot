@@ -1,0 +1,10 @@
+{
+  "name": "Brindi Bot",
+  "prefix": "!",
+  "owner": ["+237673355468"],
+  "autoRestart": true,
+  "restartInterval": 43200000,
+  "logLevel": "info",
+  "downloadPath": "./downloads",
+  "allowedGroups": []
+}

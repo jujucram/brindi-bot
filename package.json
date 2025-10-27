@@ -1,0 +1,26 @@
+{
+  "name": "brindi-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@whiskeysockets/baileys": "^7.0.0-rc.6",
+    "file-type": "^21.0.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "fs": "^0.0.1-security",
+    "node-cron": "^4.2.1",
+    "pm2": "^6.0.13",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.34.4",
+    "ytdl-core": "^4.11.5"
+  }
+}
