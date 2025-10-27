@@ -60,17 +60,6 @@ pm2 stop brindi-bot
 pm2 delete brindi-bot
 ```
 
-Aide supplémentaire
--------------------
-Si vous voulez, je peux :
-- Ajouter une implémentation basique pour sauvegarder/restaurer les credentials sur S3 (ex: AWS S3).
-- Générer un `Dockerfile` pour déployer via un conteneur sur Render.
-- Tester localement le démarrage avec `AUTH_DIR` pointant vers un dossier local `/data`.
-
-
-Fin
----
-
 Déploiement via Docker (Render ou local)
 ---------------------------------------
 Ce projet contient un `Dockerfile` prêt à builder. Le conteneur attend la variable d'environnement `AUTH_DIR`.
